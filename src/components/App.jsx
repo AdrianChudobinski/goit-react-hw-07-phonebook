@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 import css from './App.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectError, selectIsLoading } from '../redux/selectors';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from '../redux/operations';
 
 const App = () => {
   const dispatch = useDispatch();
